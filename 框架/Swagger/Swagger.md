@@ -1,6 +1,6 @@
 ## Swagger配置
 
-### Docket实例
+**Docket实例**
 
 > Docket:摘要，记事本。是swagger生成的文档信息的核心对象，一个实例化的docket代表一个api文档。
 
@@ -39,7 +39,7 @@ public Docket docket(){
 
 这样就创建好了一个swagger的docket实例，展示的是swagger默认的文档信息
 
-### apiInfo()方法
+**apiInfo()方法**
 
 通过docket对象的 apiInfo()方法配置
 
@@ -107,7 +107,7 @@ public Docket docket(){
 
 可以看出swagger的文档信息已经变成自定义的内容。
 
-### select()
+**select()**
 
 > 通过传入自定义的选择器选择生成`哪些类，或者哪些方法`的api文档。
 >
@@ -154,7 +154,7 @@ public Docket docket(){
 }
 ```
 
-### groupName()
+**groupName()**
 
 docket的groupName方法为此docket配置一个组名，一个docket实例只有一个组名，可以在swagger-ui界面通过切换group，查看不同组的api文档。
 

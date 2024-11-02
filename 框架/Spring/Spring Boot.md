@@ -1,6 +1,4 @@
-# Springboot
-
-# 1.静态资源路径问题
+## 1.静态资源路径问题
 
 ` springboot`默认的静态资源配置源码解析
 
@@ -52,7 +50,7 @@ protected void addResourceHandlers(ResourceHandlerRegistry registry) {
   1. ​	spring.mvc.static-path-pattern=/czj/**    修改映射路径，修改之后需要通过/czj/**去访问四个默认的静态资源文件夹
   2. ​     spring.web.resources.static-locations=classpath:/111   修改静态资源路径  修改之后默认的静态资源存放文件夹失效，需要将静态资源文件放到我们配置的指定文件夹位置中才能生效              注意classpath不能丢！！！
 
-# 2.webmvc自动配置
+## 2.webmvc自动配置
 
 **三种配置路径区别**
 
