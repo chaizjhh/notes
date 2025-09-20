@@ -1,0 +1,7 @@
+
+线程池删除：queryPoiSkuPromotionListComparePool
+
+Lion删除：promotion_query_poi_sku_gray_conf
+
+待上线后删除
+
